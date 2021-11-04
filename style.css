@@ -1,7 +1,16 @@
+@font-face {
+  font-family: Moon;
+  src: url(fonts/Moon2.0-Regular.otf);
+}
+
+
 * {
     margin: 0;
     padding: 0;
-    font-family: Moon2.0;
+}
+
+html {
+  font-family: moon;
 }
 
 
@@ -9,8 +18,8 @@
 .header .logoh span {
     margin-top: 10px;
     margin-left: 10px;
-    font-size: 38px;
-    font-family: Otra Mas Stf ;
+    font-size: 30px;
+    font-family: Moon;
   }
 
   .header {
@@ -124,13 +133,28 @@
   }
 
   .heading {
-      background-color: #fff;
-      height: 42em;
+      background-color: rgb(240, 240, 240);
+      height: 52em;
       display: grid;
       align-items: center;
       text-align: center;
+
   }
 
+  .first{
+    font-size: 72px;
+    margin-bottom: 10px;
+  }
+
+  .second {
+    font-size: 34px;
+    font-weight: 400;
+  }
+
+  .third {
+    font-size: 30px;
+    font-weight: 400;
+  }
 
   .ftproject1 {
       color: rgb(206, 206, 206);
