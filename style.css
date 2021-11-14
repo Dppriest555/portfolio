@@ -11,6 +11,7 @@
 
 html {
   font-family: moon;
+  background-color: #f0f0f0;
 }
 
 
@@ -133,8 +134,8 @@ html {
   }
 
   .heading {
-      background-color: rgb(240, 240, 240);
-      height: 52em;
+      background-color: #f0f0f0;
+      height: 48em;
       display: grid;
       align-items: center;
       text-align: center;
@@ -155,36 +156,61 @@ html {
     font-size: 30px;
     font-weight: 400;
   }
+  
+  p {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 500;
+    font-size: 15px;
+  }
 
   .ftproject1 {
-      color: rgb(206, 206, 206);
+      color: rgb(228, 228, 228);
     display: grid;
-      height: 17em;
-      background-color: #333;
+      height: 20em;
+      background-color: #36006c;
+  }
+  
+  .ftproject1 h1 {
+    margin-bottom: 10px;
+    font-weight: 400;
   }
 
   .ftproject1 p {
       padding: 10px;
       position: relative;
-      animation-name: ftp1;
-      animation-duration: 2s;
   }
-  
-  @keyframes ftp1{
-      0% {bottom: 100px;}
- 
-      100% {bottom: 0px;}
+
+  .neznam {
+    height: 10px;
+    font-size: 13px;
+    font-weight: 600;
   }
+
 
   .ftproject1 .parg1{
       text-align: center;
+      margin-bottom: 50px;
+      width: 290px;
+      justify-self: center;
   }
 
 
   .skills1 {
-      height: 20em;
+      height: 19em;
       display: grid;
   }
+
+   .i131 {
+     position: absolute;
+     right: 155px;
+     top: 1015px;
+   }
+
+   .i132 {
+     position: absolute;
+     left: 150px;
+     top: 995px;
+   }
 
   .skills1 .skill1 {
       width: 60%;
@@ -202,13 +228,15 @@ html {
     justify-self: center;
     align-self: center;
 }
-
+  .ftp {
+    font-size: 13px;
+    font-weight: 600;
+  }
 
   .ftproject2 {
-    color: rgb(206, 206, 206);
+    color: rgb(85, 85, 85);
     display: grid;
-      height: 17em;
-      background-color: #333;
+      height: 34em;
   }
 
   .ftproject2 p {
@@ -221,6 +249,20 @@ html {
 
   .ftproject2 .parg2{
       text-align: center;
+      width: 290px;
+      justify-self: center;
+      align-self: center;
+  }
+  
+  .rent{
+    border-radius: 30px;
+    justify-self: center;
+  }
+
+  .abtme{
+    height: 60px;
+    font-size: 29px;
+    color: #333;
   }
 
   .aboutme {
@@ -230,15 +272,17 @@ html {
   }
 
   .aboutme .meimg {
-      height: 150px;
-      width: 150px;
+      width: 280px;
       background-color: #333;
       justify-self: center;
+      border-radius: 30px;
       
   }
 
   .aboutme .abmep {
       margin-top: 2em;
+      width: 300px;
+      justify-self: center;
   }
 
   @media (min-width: 48em) {

@@ -4,6 +4,10 @@
         <meta  charset="utf-8">
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>
         <header class="header">
@@ -27,29 +31,45 @@
         </section>
         <section class="mainbody">
             <div class="ftproject1">
-                <p>FEATURED PROJECT</p>
+                <p class="neznam" data-aos="zoom-in"
+                data-aos-anchor-placement="center-bottom">01.FEATURED PROJECT</p>
                 <div class="parg1">
-                    <h1>WorkHub-FullStack</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quibusdam deleniti accusantium voluptates saepe fugiat qui repudiandae ad tempore vel neque obcaecati, rem possimus ipsam eligendi eos dolores natus dolorems.</p>
+                    <h1 data-aos="zoom-in"
+                    data-aos-anchor-placement="center-bottom">WorkHub-FullStack</h1>
+                    <p data-aos="zoom-in"
+                    data-aos-anchor-placement="center-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quibusdam deleniti accusantium voluptates saepe fugiat qui repudiandae ad tempore vel neque obcaecati, rem possimus ipsam eligendi eos dolores natus dolorems.</p>
                 </div>
-                <img src="" alt="">
-                <img src="" alt="">
+                <div class="mockups">
+                <img class="i131" src="images/i131.png" alt="" style="width: 210px;" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
+                <img class="i132" src="images/i132.png" alt="" style="width: 225px;" data-aos="fade-down" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
+        </div>
             </div>
             <div class="skills1">
 
             </div>
             <div class="ftproject2">
-                <p class="ftp">FEATURED PROJECT</p>
+                <p class="ftp" data-aos="zoom-in">02.FEATURED PROJECT</p>
                 <div class="parg2">
-                    <h1>RentBikes-Ux/UI</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quibusdam deleniti accusantium voluptates saepe fugiat qui repudiandae ad tempore vel neque obcaecati, rem possimus ipsam eligendi eos dolores natus dolorems.</p>
+                    <h1 data-aos="zoom-in"
+                    data-aos-anchor-placement="center-bottom">RentBikes-Ux/UI</h1>
+                    <p data-aos="zoom-in"
+                    data-aos-anchor-placement="center-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quibusdam deleniti accusantium voluptates saepe fugiat qui repudiandae ad tempore vel neque obcaecati, rem possimus ipsam eligendi eos dolores natus dolorems.</p>
                 </div>
-                <img src="" alt="">
+                <img class="rent" src="images/rentbikes.png" alt="" style="width: 350px;" data-aos="zoom-out-right"
+                data-aos-anchor-placement="center-bottom"
+                data-aos-duration="1000">
             </div>
             <div class="aboutme">
-                <div class="meimg"></div>
-                <div class="abmep"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut eaque voluptatibus beatae voluptas commodi ipsum. Omnis illum natus, nihil dolores at vero, ipsa obcaecati earum facere harum error quidem aut.</p></div>
+                <h1 class="abtme" data-aos="zoom-in"
+                data-aos-anchor-placement="center-bottom">About-Me</h1>
+                <img class="meimg" src="images/me.jpg" alt="" data-aos="flip-right" data-aos-duration="1000">
+                <div class="abmep" ><p data-aos="zoom-in"
+                    data-aos-anchor-placement="center-bottom">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut eaque voluptatibus beatae voluptas commodi ipsum. Omnis illum natus, nihil dolores at vero, ipsa obcaecati earum facere harum error quidem aut.</p></div>
             </div>
         </section>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
     </body>
 </html>
