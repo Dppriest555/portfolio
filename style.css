@@ -14,6 +14,11 @@
   src: url(fonts/Avenir-Book.ttf);
 }
 
+@font-face {
+  font-family: Otra;
+  src: url(fonts/Otra\ Mas\ Stf.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -26,6 +31,10 @@ p {
   font-family: Avenir-Book;
   font-weight: 500;
   font-size: 18px;
+}
+
+html {
+  background-color: #f0f0f0;
 }
 
 /*
@@ -157,6 +166,11 @@ html {
 
   }
 
+
+  .milenov {
+    display: none;
+  }
+
   .heading {
       background-color: #f0f0f0;
       height: 48em;
@@ -167,7 +181,7 @@ html {
   }
 
   .first{
-    font-family: 'Praise', cursive;
+    font-family: Otra;
     font-size: 72px;
     margin-bottom: 10px;
   }
@@ -313,8 +327,8 @@ html {
     width: 280px;
     height: 280px;
     background-color: #9c72157a;
-    left: 63px;
-    top: 143em;
+    left: 58px;
+    top: 142.7em;
     border-radius: 30px;
   }
 
@@ -377,6 +391,7 @@ li{
     padding: 17px 25px 17px 25px;
     font-size: 18px;
     font-weight: 600;
+    color: black;
 }
 
 .links {
@@ -535,10 +550,10 @@ li{
   .rent{
     position: absolute;
     top: 1550px;
-    right: 700px;
+    right: 600px;
     border-radius: 30px;
     justify-self: center;
-    width: 950px;
+    width: 900px;
   }
   
   .skills1 {
@@ -589,7 +604,7 @@ li{
   position: absolute;
   width: 350px;
   height: 350px;
-  background-color: #7400e77a;
+  background-color: #9c72157a;
   left: 775px;
   top: 151em;
   border-radius: 30px;
@@ -670,6 +685,13 @@ text-align: center;
 
 }
 
+.header .logoh span {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 30px;
+  font-family: Moon;
+}
+
 .github {
   font-size: 50px;
 }
@@ -684,6 +706,10 @@ text-align: center;
 
 .linkedin {
   font-size: 35px;
+}
+
+.milenov {
+  display: unset;
 }
 
   } 
