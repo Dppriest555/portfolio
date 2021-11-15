@@ -92,7 +92,7 @@ html {
     float: left;
     font-size: 2em;
     text-decoration: none;
-    padding: 2px 5px;
+    
   }
   
   
@@ -405,8 +405,9 @@ li{
     list-style: none;
 }
 
-
   @media (min-width: 48em) {
+
+
     .header li {
       float: left;
     }
@@ -435,6 +436,10 @@ li{
       font-size: 102px;
       margin-bottom: 10px;
       color: #313131;
+    }
+
+    .header {
+      width: 100%;
     }
   
     .second {
