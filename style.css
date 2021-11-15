@@ -1,20 +1,44 @@
 @font-face {
   font-family: Moon;
   src: url(fonts/Moon2.0-Regular.otf);
+  
 }
 
+@font-face {
+  font-family: Avenir;
+  src: url(fonts/Avenir-Heavy.ttf);
+}
+
+@font-face {
+  font-family: Avenir-Book;
+  src: url(fonts/Avenir-Book.ttf);
+}
 
 * {
     margin: 0;
     padding: 0;
 }
-
-html {
-  font-family: moon;
-  background-color: #f0f0f0;
+h1{
+  font-family: Avenir;
 }
 
+p {
+  font-family: Avenir-Book;
+  font-weight: 500;
+  font-size: 18px;
+}
 
+/*
+html {
+  font-family: moon;
+  background-image: url('images/Pattern_-_85590_SparkVideo.gif');
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 0%;
+  background-attachment: fixed;
+}
+
+*/
 
 .header .logoh span {
     margin-top: 10px;
@@ -143,30 +167,29 @@ html {
   }
 
   .first{
+    font-family: 'Praise', cursive;
     font-size: 72px;
     margin-bottom: 10px;
   }
 
   .second {
+    font-family: Avenir-Book;
     font-size: 34px;
     font-weight: 400;
   }
 
   .third {
+    font-family: Avenir-Book;
     font-size: 30px;
     font-weight: 400;
   }
-  
-  p {
-    font-family: 'Inconsolata', monospace;
-    font-weight: 500;
-    font-size: 15px;
-  }
+    
+
 
   .ftproject1 {
       color: rgb(228, 228, 228);
     display: grid;
-      height: 20em;
+      height: 30em;
       background-color: #36006c;
   }
   
@@ -194,24 +217,27 @@ html {
       justify-self: center;
   }
 
-
-  .skills1 {
-      height: 19em;
-      display: grid;
-  }
-
    .i131 {
      position: absolute;
      right: 155px;
-     top: 1015px;
+     top: 1115px;
+     width: 210px
    }
 
    .i132 {
      position: absolute;
      left: 150px;
-     top: 995px;
+     top: 1095px;
+     width: 225px;
    }
 
+   .i133 {
+    display: none;
+  }
+.skills1 {
+      height: 19em;
+      display: grid;
+  }
   .skills1 .skill1 {
       width: 60%;
       height: 100px;
@@ -257,6 +283,7 @@ html {
   .rent{
     border-radius: 30px;
     justify-self: center;
+    width: 350px;
   }
 
   .abtme{
@@ -266,9 +293,11 @@ html {
   }
 
   .aboutme {
+    justify-items: center;
       display: grid;
       text-align: center;
       margin-top: 30px;
+      margin-top: 100px;
   }
 
   .aboutme .meimg {
@@ -279,11 +308,88 @@ html {
       
   }
 
+  .box{
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    background-color: #9c72157a;
+    left: 63px;
+    top: 143em;
+    border-radius: 30px;
+  }
+
   .aboutme .abmep {
       margin-top: 2em;
       width: 300px;
       justify-self: center;
   }
+
+  .aboutme .abmep p{
+    color: #4b4b4b;
+    font-size: 18px;
+    justify-self: center;
+  }
+
+  .compskills{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    gap: 0px 10px;
+    padding: 30px;
+    margin: 20px 0px 0px;
+    overflow: hidden;
+    list-style: none;
+    font-size: 16px;
+}
+
+.fa-caret-up:before{
+  padding: 5px;
+}
+
+
+li{
+  font-family: Moon;
+  padding: 4px;
+}
+
+
+.getintouch {
+  display: flex;
+  flex-direction: column;
+}
+
+.sendh1{
+  text-align: center;
+  padding: 50px 10px 30px 10px;
+  font-size: 36px;
+  font-family: Avenir;
+}
+
+.button{
+  font-family: Avenir;
+  align-self: center;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  text-align: center;
+    border: 1px solid ;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 17px 25px 17px 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.links {
+  display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0px;
+    list-style: none;
+}
+
 
   @media (min-width: 48em) {
     .header li {
@@ -308,3 +414,276 @@ html {
       }
 
   }
+
+  @media only screen and (min-width: 992px) {
+    .first{
+      font-size: 102px;
+      margin-bottom: 10px;
+      color: #313131;
+    }
+  
+    .second {
+      font-size: 52px;
+      font-weight: 400;
+      color: #3d3d3d;
+    }
+  
+    .third {
+      font-size: 64px;
+      font-weight: 400;
+      color: #555555;
+    }
+
+
+    .ftproject1 {
+      color: rgb(209, 209, 209);
+    display: grid;
+      height: 36em;
+      background-color: #36006c;
+  }
+  
+
+
+  .ftproject1 h1 {
+    margin-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    font-size: 45px;
+    width: 600px;
+    font-family: Avenir;
+  }
+
+  .ftproject1 p {
+      width: 400px;
+      font-size: 22px;
+  }
+
+  .neznam {
+    font-size: 24px;
+    margin: 10px;
+  }
+
+
+  .ftproject1 .parg1{
+      text-align: left;
+      width: 330px;
+      justify-self: left;
+      margin-top: 100px;
+      padding-left: 100px;
+  }
+
+  .i131 {
+    position: absolute;
+    left: 1000px;
+    top: 685px;
+    width: 270px;
+  }
+
+  .i132 {
+    position: absolute;
+    left: 1160px;
+    top: 915px;
+    width: 300px;
+  }
+
+  .i133 {
+    position: absolute;
+    left: 800px;
+    top: 795px;
+    width: 320px;
+    display: unset;
+  }
+
+  .ftproject2 {
+    color: rgb(85, 85, 85);
+    display: grid;
+      height: 36em;
+  }
+
+  .ftproject2 h1{
+    font-weight: 600;
+    letter-spacing: 4px;
+    font-size: 45px;
+    width: 600px;
+    font-family: Avenir;
+    float: right;
+  }
+
+  .ftproject2 p {
+    width: 400px;
+    font-size: 22px;
+    float: right;
+}
+
+  .ftproject2 .ftp {
+      text-align: right;
+      font-size: 24px;
+      font-weight: 600;
+      margin: 10px;
+      justify-self: right;
+  }
+
+  .ftproject2 .parg2{
+    text-align: right;
+      width: 290px;
+      align-self: center;
+      justify-self: right;
+      padding-right: 100px;
+      margin-top: 100px;
+  }
+  
+  .rent{
+    position: absolute;
+    top: 1550px;
+    right: 700px;
+    border-radius: 30px;
+    justify-self: center;
+    width: 950px;
+  }
+  
+  .skills1 {
+    height: 5em;
+    display: grid;
+}
+.skills1 .skill1 {
+    width: 60%;
+    height: 100px;
+    background-color: #333;
+    border-radius: 25px;
+    justify-self: center;
+    align-self: center;
+}
+.skills1 .skill2 {
+  width: 60%;
+  height: 100px;
+  background-color: #333;
+  border-radius: 25px;
+  justify-self: center;
+  align-self: center;
+}
+
+.abtme{
+  margin-top: 5em;
+  
+  height: 60px;
+  font-size: 49px;
+  color: #333;
+}
+
+.aboutme {
+    display: grid;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.aboutme .meimg {
+    width: 350px;
+    background-color: #333;
+    justify-self: center;
+    border-radius: 30px;
+    margin-left: 50px;
+    
+}
+
+.box{
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  background-color: #7400e77a;
+  left: 775px;
+  top: 151em;
+  border-radius: 30px;
+}
+
+.textimage{
+  padding: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.aboutme .abmep p{
+  font-size: 22px;
+  margin-left: -5em;
+  width: 350px;
+}
+
+.compskills{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(140px, 200px));
+  gap: 0px 10px;
+  padding: 30px;
+  margin: 20px 0px 0px;
+  overflow: hidden;
+  list-style: none;
+  font-size: 22px;
+  justify-content: center;
+}
+
+.fa-caret-up:before{
+padding: 5px;
+}
+
+
+li{
+font-family: Moon;
+padding: 4px;
+}
+
+
+
+.getintouch {
+display: flex;
+flex-direction: column;
+}
+
+.sendh1{
+text-align: center;
+padding: 50px 10px 30px 10px;
+font-size: 66px;
+
+}
+
+.button{
+align-self: center;
+margin-bottom: 50px;
+border-radius: 10px;
+text-align: center;
+  border: 1px solid ;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 17px 25px 17px 25px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.links {
+  justify-content: center;
+  align-items: center;
+}
+
+.links li {
+  margin: 10px;
+
+}
+
+.github {
+  font-size: 50px;
+}
+
+.instagram {
+  font-size: 38px;
+}
+
+.facebook {
+  font-size: 35px;
+}
+
+.linkedin {
+  font-size: 35px;
+}
+
+  } 
