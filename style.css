@@ -35,6 +35,7 @@ p {
 
 html {
   background-color: #f0f0f0;
+  scroll-behavior: smooth;
 }
 
 /*
@@ -54,6 +55,7 @@ html {
     margin-left: 10px;
     font-size: 30px;
     font-family: Moon;
+    color: #222222;
   }
 
   .header {
@@ -79,6 +81,7 @@ html {
     text-decoration: none;
     text-align: center;
     font-family: Moon ;
+    color: #222222;
   }
   
   .header li a:hover,
@@ -87,7 +90,7 @@ html {
   }
   
   .header .logo {
-      color: #333;
+    color: #333;
     display: flex;
     float: left;
     font-size: 2em;
@@ -184,12 +187,14 @@ html {
     font-family: Otra;
     font-size: 72px;
     margin-bottom: 10px;
+    color: #3d3d3d;
   }
 
   .second {
     font-family: Avenir-Book;
     font-size: 34px;
     font-weight: 400;
+    color: #3d3d3d;
   }
 
   .third {
@@ -205,6 +210,14 @@ html {
     display: grid;
       height: 30em;
       background-color: #36006c;
+  }
+
+  #section1 {
+    scroll-behavior: smooth;
+  }
+
+  #section2 {
+    scroll-behavior: smooth;
   }
   
   .ftproject1 h1 {
@@ -303,7 +316,7 @@ html {
   .abtme{
     height: 60px;
     font-size: 29px;
-    color: #333;
+    color: #555555;
   }
 
   .aboutme {
@@ -403,6 +416,15 @@ li{
     padding: 10px;
     margin: 0px;
     list-style: none;
+    color: black;
+}
+
+.github {
+  font-size: 20px;
+}
+
+.links a{
+  color: black;
 }
 
   @media (min-width: 48em) {
