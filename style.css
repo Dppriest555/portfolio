@@ -333,7 +333,12 @@ html {
       background-color: #333;
       justify-self: center;
       border-radius: 30px;
+
       
+  }
+
+  .aboutme .meimgdiv {
+      position: relative;
   }
 
   .box{
@@ -341,8 +346,8 @@ html {
     width: 280px;
     height: 280px;
     background-color: #9c72157a;
-    left: 58px;
-    top: 142.7em;
+    right: -3px;
+    bottom: -7px;
     border-radius: 30px;
   }
 
@@ -619,6 +624,10 @@ li{
     margin-top: 30px;
 }
 
+.meimgdiv {
+  position: relative;
+}
+
 .aboutme .meimg {
     width: 350px;
     background-color: #333;
@@ -633,8 +642,8 @@ li{
   width: 350px;
   height: 350px;
   background-color: #9c72157a;
-  left: 775px;
-  top: 151em;
+  right: -20px;
+  bottom: -10px;
   border-radius: 30px;
 }
 
