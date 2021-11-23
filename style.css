@@ -210,6 +210,7 @@ html {
     display: grid;
       height: 30em;
       background-color: #36006c;
+      position: relative;
   }
 
   #section1 {
@@ -246,15 +247,15 @@ html {
 
    .i131 {
      position: absolute;
-     right: 155px;
-     top: 1115px;
+     left: 0%;
+     top: 350px;
      width: 210px
    }
 
    .i132 {
      position: absolute;
-     left: 130px;
-     top: 1095px;
+     right: 0%;
+     top: 330px;
      width: 225px;
    }
 
@@ -516,22 +517,22 @@ li{
 
   .i131 {
     position: absolute;
-    left: 1000px;
-    top: 685px;
+    left: 66%;
+    top: -50px;
     width: 270px;
   }
 
   .i132 {
     position: absolute;
-    left: 1160px;
-    top: 915px;
+    left: 78%;
+    top: 100px;
     width: 300px;
   }
 
   .i133 {
     position: absolute;
-    left: 800px;
-    top: 795px;
+    left: 52%;
+    top: 50px;
     width: 320px;
     display: unset;
   }
